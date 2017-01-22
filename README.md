@@ -25,4 +25,4 @@ RPiClient-test.py is minimum set of unittests to ensure you have everything wire
 
 ## Helpful Commands
 To install GPIO on your raspberry pi use:
-sudo apt-get install python-rpi.gpio
+### sudo apt-get install python-rpi.gpio
