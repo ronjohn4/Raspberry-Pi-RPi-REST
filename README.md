@@ -15,7 +15,9 @@ returns the state of <getPin>
 sets <changePin> to state specified by <int:value>
 
 ## Architecture
-On the raspberry pi RPiServer.py handles incomming requests.  Requests have a fair amount of validation and return informative fails.  Valid requests are passed on to GPIO natively to perform the request.
+On the raspberry pi RPiServer.py handles incomming requests.  Requests have a fair amount of validation and return informative fails.  Valid requests are passed on to GPIO natively to perform the request.  Running the Flask webserver on the raspberry pi is simply:
+
+'sudo python RPiClient.py'
 
 The Client is a simple Python command line program that lets the user enter specific commands (e.g. '23 on' will turn pin 23 on) and makes the REST call to the raspberry pi.
 
