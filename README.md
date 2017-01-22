@@ -21,8 +21,7 @@ The Client is a simple Python command line program that lets the user enter spec
 
 RPiClient-test.py is minimum set of unittests to ensure you have everything wired up.  The pins = {} definition should match the definition you are using in RPiServer.py.  RPiServer.py should defined the pins based on your specific hardware project.  A quick snapshot of the project used to test is below:
 
-<image>
-
+![pins](https://cloud.githubusercontent.com/assets/3393772/22186702/36a9f5f4-e0b7-11e6-942c-6a36234056e8.png)
 
 ## Helpful Commands
 To install GPIO on your raspberry pi use:
